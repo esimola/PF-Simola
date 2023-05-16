@@ -1,0 +1,16 @@
+.d-flex {
+    a {
+        color: $color-secundario;
+    }
+}
+
+.iconos {
+    a {
+        color: $color-secundario;
+        margin: 1rem;
+        font-size: 3rem;
+        &:hover {
+            color:aqua;
+        }
+    }
+}
