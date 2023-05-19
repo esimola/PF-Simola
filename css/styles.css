@@ -18,6 +18,7 @@ body {
   background: #1A4D2E;
 }
 
+
 .carousel-item img {
   height: 350px;
 }
@@ -46,12 +47,14 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px;
   /*anidacion*/
 }
 footer .container-redes a {
   color: #1A4D2E;
   text-decoration: none;
   font-size: 40px;
+  
 }
 
 .btn, .btn-primary {
@@ -76,15 +79,21 @@ footer .container-redes a {
   background-color: #1A4D2E;
 }
 
+.container {
+  text-align: center;
+}
+
 .container-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   margin-top: 60px;
+  border-radius: 15px;
+  align-items: center;
 }
 
-/*¿COMO DISMINUYO EL TAMAÑO DE CADA IMAGEN?PPALMENTE LA CLASE 3?*/
+
 .contenedor-banner {
   display: flex;
   flex-direction: column;
@@ -92,10 +101,13 @@ footer .container-redes a {
   gap: 60px;
   margin-top: 60px;
   max-width: 100%;
+  weight: 0px;
 }
 
 .video {
   text-align: center;
+  flex-shrink: 0;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -153,7 +165,11 @@ footer .container-redes a {
   align-items: center;
 }
 .container-cards img {
-  font-size: 40px;
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+text-align: center;
 }
 
 .container-cards {
@@ -208,6 +224,18 @@ footer .container-redes a {
     gap: 20px;
     justify-items: center;
   }
+}
+.d-flex a {
+  color: #1A4D2E;
+}
+
+.iconos a {
+  color: #1A4D2E;
+  margin: 1rem;
+  font-size: 3rem;
+}
+.iconos a:hover {
+  color: aqua;
 }
 
 /*# sourceMappingURL=styles.css.map */

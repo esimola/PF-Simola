@@ -7,4 +7,19 @@
     width: 100px;
     height: 100px;
     max-width: 100%;
+    border-radius: 10px;
+    
+}
+
+ .img {
+   margin-left: 50px;
+}
+
+@media (min-width: 425px) {
+    .mision_vision {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: $espacio-chico;
+        justify-items: center;
+    }
 }
